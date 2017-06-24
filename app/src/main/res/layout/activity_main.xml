@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -12,6 +13,7 @@
     android:onClick="BuClick">
 
     <TableRow
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
@@ -22,6 +24,7 @@
             android:layout_marginRight="3pt"
             android:layout_height="50pt"
             android:onClick="BuClick" />
+
 
         <Button
             android:text=" "
@@ -40,6 +43,7 @@
     </TableRow>
 
     <TableRow
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
@@ -68,6 +72,7 @@
     </TableRow>
 
     <TableRow
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
